@@ -1,0 +1,122 @@
+/* <!-- <style>
+@import url('http://fonts.cdnfonts.com/css/harrypotter7');
+</style> -->
+
+<!-- <style>
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+</style> --> */
+h2 {text-align: center;}
+h2 {font-family: 'Harrypotter7'}
+
+
+body {
+  background-color: black;
+  color :white;
+}
+
+.banner {
+
+  background-image: url(banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.banner-text {
+  font-family: 'Harrypotter7', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+nav ul {
+
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav li {
+
+  padding: 0 5vw;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+ color: darkgoldenrod;
+}
+
+
+.nav {
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: space-evenly;
+  font-family: 'Harry Potter', sans-serif;
+  color: white;
+  background-color: black;
+  display: flex;
+  margin: auto;
+
+}
+
+ .container {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  padding-bottom: 20px;
+  
+}
+
+
+.left {
+  float: left;
+  width: 40%;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+  font-family: sans-serif; 
+  letter-spacing: 1px;
+  line-height: 2rem;
+
+
+}
+
+
+.right {
+  float: right;
+  width: 40%;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+  font-family: sans-serif; 
+  letter-spacing: 1px;
+  line-height: 2rem;
+
+}
+
+img {
+  max-width: 600px;
+  padding-top: 20px;
+}
+
+.clear-float {
+
+  clear:both
+}
+
+
+
